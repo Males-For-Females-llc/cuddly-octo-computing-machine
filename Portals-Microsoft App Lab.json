@@ -1,0 +1,110 @@
+{
+	"id": "bf033d75-7c82-4147-a4ef-0fc5dd283e1b",
+	"acceptMappedClaims": null,
+	"accessTokenAcceptedVersion": null,
+	"addIns": [],
+	"allowPublicClient": false,
+	"appId": "11db5c90-6376-42f2-85e4-c48e7eeb2cd4",
+	"appRoles": [],
+	"oauth2AllowUrlPathMatching": false,
+	"createdDateTime": "2024-04-28T11:43:24Z",
+	"description": null,
+	"certification": null,
+	"disabledByMicrosoftStatus": null,
+	"groupMembershipClaims": null,
+	"identifierUris": [
+		"api://8b472a39-8df1-4875-8388-5b07503b8ff7/dbb3f376-c278-438d-9e56-84c137cddd6c"
+	],
+	"informationalUrls": {
+		"termsOfService": null,
+		"support": null,
+		"privacy": null,
+		"marketing": null
+	},
+	"keyCredentials": [
+		{
+			"customKeyIdentifier": "KFVE0XiRYH+AnYgWkEZSdZ2ydME=",
+			"endDate": "2025-04-26T23:00:30Z",
+			"keyId": "0bcd44b6-a948-42a2-abf6-ffaf5246fb64",
+			"startDate": "2024-04-28T11:43:24.7343866Z",
+			"type": "AsymmetricX509Cert",
+			"usage": "Verify",
+			"value": "MIIDBTCCAe2gAwIBAgIQAIztLL3jjnDinxvOYhM6yzANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDDCQyYzBhY2FjOC02NjQ0LTQ3ZmEtYjUwOC0xZDU1Njc3NmNiMjUwHhcNMjQwNDI3MjMwMDMwWhcNMjUwNDI2MjMwMDMwWjAvMS0wKwYDVQQDDCQyYzBhY2FjOC02NjQ0LTQ3ZmEtYjUwOC0xZDU1Njc3NmNiMjUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCciGbJdD6Xyy7r9uzL4zbZJkPBNJGdraia+UxATz0E7MbKlrrhdBDGlUCoatlfqp6l80aGYSHzlvFsf+6uzCWxwMLXTsP9J1/iw0eIRMekpaTJefCDGGlDmjG+7VtfA35qVLEWkjPgpAqUZjWcauyrcswPnh21C7r6c+S96Z/ZJaTKH4roJijqlmp/7h+UoKq9PDKd4w+JpHDpE6icLbsemweSXY7+XBdMylSp2uZ0jp87eWuesN53R1ceGtoE+/NfeP6I54sASMxL3FIF8bjRT8SygeM6Md7KbEZDC1qrjB6/But7wZhn1bPXl9CB9iWPOq/9xoLk9WrjrEvcndZ1AgMBAAGjHTAbMBkGA1UdJQQSMBAGBFUdJQAGCCsGAQUFBwMBMA0GCSqGSIb3DQEBCwUAA4IBAQCQcEIS8rnL6DPyHC4LQ/dULF/cnNPSkeS7EzWnasL1qUID/Z65iLLn4kSNg0wtUY6GLjOd3GywFYJZ35ZU/aHOeOd1GNxWYej6UxZgYEfNUKme+ROlxDQSvQ5kxVyiQ3RdMwe1msIKn+HU/58aMFKyULfCdf2/XNwObfKireZqSbtqWGgqwrP0JRNbXfEYJ4N0r4MF+hVcuBwban7xLOAnVxlCjsonGbQrWtJEGys6yzJDoBxIUuAqILHDAbNZ6Wqudr0b5emmlTq0Q68M8niIzCuC1nYHzxAEpccEMO8YXik8G8uFDcWvpgLZho/ydyWUH12oLlmXQCYVH3/xLtJB",
+			"displayName": "CN=2c0acac8-6644-47fa-b508-1d556776cb25"
+		}
+	],
+	"knownClientApplications": [],
+	"logoUrl": null,
+	"logoutUrl": null,
+	"name": "Portals-Microsoft App Lab",
+	"notes": null,
+	"oauth2AllowIdTokenImplicitFlow": true,
+	"oauth2AllowImplicitFlow": false,
+	"oauth2Permissions": [
+		{
+			"adminConsentDescription": "Allows the app to read write and collaborate all files within the tenant group and administrator groups",
+			"adminConsentDisplayName": "Madeline Brown",
+			"id": "d159a01c-c907-4f20-b313-dac0b650f789",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"type": "Admin",
+			"userConsentDescription": null,
+			"userConsentDisplayName": null,
+			"value": "teamdeveloperandadmin"
+		},
+		{
+			"adminConsentDescription": "Allow the application to access Portals-Microsoft App Lab on behalf of the signed-in user.",
+			"adminConsentDisplayName": "Access Portals-Microsoft App Lab",
+			"id": "f8942d2b-fdc0-4baf-9728-e818acbc3f60",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"type": "User",
+			"userConsentDescription": "Allow the application to access Portals-Microsoft App Lab on your behalf.",
+			"userConsentDisplayName": "Access Portals-Microsoft App Lab",
+			"value": "user_impersonation"
+		}
+	],
+	"oauth2RequirePostResponse": false,
+	"optionalClaims": null,
+	"orgRestrictions": [],
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [],
+	"preAuthorizedApplications": [],
+	"publisherDomain": "MalesForFemalesLLC.onmicrosoft.com",
+	"replyUrlsWithType": [
+		{
+			"url": "https://microsoftapplab-eb2b.powerappsportals.com",
+			"type": "Web"
+		}
+	],
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "11db5c90-6376-42f2-85e4-c48e7eeb2cd4",
+			"resourceAccess": [
+				{
+					"id": "f8942d2b-fdc0-4baf-9728-e818acbc3f60",
+					"type": "Scope"
+				}
+			]
+		},
+		{
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+					"type": "Scope"
+				}
+			]
+		}
+	],
+	"samlMetadataUrl": null,
+	"signInUrl": null,
+	"signInAudience": "AzureADMyOrg",
+	"tags": [],
+	"tokenEncryptionKeyId": null
+}

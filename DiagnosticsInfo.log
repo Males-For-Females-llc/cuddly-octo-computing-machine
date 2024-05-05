@@ -1,0 +1,90 @@
+
+Begin PlatformInfo Information.
+	Brand: motorola
+	Device: ginna
+	Display: QPGS30.82-141-15-4
+	Hardware: qcom
+	Manufacturer: motorola
+	Model: moto e
+	Type: user
+	Version Codename: REL
+	Version Incremental: 47077
+	Version Release: 10
+	Version SdkInt: 29
+	Security Patch: 2022-06-01
+	Don't Keep Activities: false
+	Notifications Enabled: true
+End PlatformInfo Information.
+
+Begin Diagnostic Session Information.
+	Telemetry: 520ca8f3-e1f2-4988-88a9-f4e25bddccdc
+	Per Enrollment Device Id: ed3a4369-9089-4721-ba23-127696681e79
+	Telemetry Installation Id: 1e51d0dc-0b55-46f5-a313-f799ea44a5ed
+	PowerLift EasyId: ADN239A8
+End Diagnostic Session Information.
+
+Begin SSP Information.
+	Package Name: com.microsoft.windowsintune.companyportal
+	Version Name: 5.0.6215.0
+	Version Code: 6688596
+	Last Updated: Apr 17, 2024 2:12:06 PM
+	First Installed: Apr 17, 2024 2:12:06 PM
+End SSP Information.
+
+Begin Enrollment Information.
+	Enrollment State: Unenrolled
+	Enrollment Type: DeviceAdmin
+	Device Supports AFW: true
+	AFW Migrating: false
+	Device Id: 
+	User Id: 
+	MDM API: NATIVE
+	Enrollment Cert Hash: 
+	Enrollment Cert Not Before: Not set
+	Enrollment Cert Expiration: Not set
+	Enrollment Cert Renewal Period: Not Set
+	Last Check-in Start: Not set
+	Last Check-in Completed: Not set
+	Last Check-in Result: Not set
+End Enrollment Information.
+
+Begin BrokerInfo Information.
+	Broker Package: com.azure.authenticator
+	Broker Signature: 7r0PFuYpr4uDgb/t/dZJYF/pD3Y/XLe6Rz657vlNmvE=, 
+	Broker Version: 6.2404.2444, 202424441
+	Microsoft Authenticator Version Info: 6.2404.2444, 202424441
+	Link to Windows Version Info: Not Installed
+End BrokerInfo Information.
+
+Begin Cloud Messaging Information.
+	PNS Type: FCM
+End Cloud Messaging Information.
+
+Begin ApplicationState Information.
+	ApplicationState Table Empty.
+End ApplicationState Information.
+
+Begin AppAssociations Information.
+	AppAssociations Table Empty.
+End AppAssociations Information.
+
+Begin AppPermissions Information.
+	AppPermissions Table Empty.
+End AppPermissions Information.
+
+Begin PolicyDB Information.
+
+	Current Application Policy Table Empty
+
+	Pending Application Policy Table Empty
+End PolicyDB Information.
+
+Begin MAM Checkin Information.
+
+	MAMServiceEnrollment Table Empty
+End MAM Checkin Information.
+
+Begin MAM Work Specs Information.
+
+	MAM WorkSpec database empty or unreadable
+End MAM Work Specs Information.

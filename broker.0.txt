@@ -1,0 +1,398 @@
+2024-04-17T19:15:25.4310000	INFO	None	10793	    2	Initialized logging to file pattern: /data/user/0/com.microsoft.windowsintune.companyportal/files/logs/broker.%g.txt
+2024-04-17T19:15:25.5150000	WARN	com.google.android.gms.internal.firebase_remote_config.zzd	10793	15653	Application name is not set. Call Builder#setApplicationName.
+2024-04-17T19:15:25.5180000	WARN	com.google.android.gms.internal.firebase_remote_config.zzd	10793	    2	Application name is not set. Call Builder#setApplicationName.
+2024-04-17T19:15:25.5709999	VERB	com.microsoft.windowsintune.companyportal.CompanyPortalApplication	10793	    2	Patched Production Deployment Settings
+	Current environment selected: [[apk default]]
+	
+	Data plugin: 'AAD'
+	AAD authority: 'https://login.windows.net/common'
+	AAD client id: '9ba1a5c7-f17a-4de9-a1f1-6178c8d51223'
+	AAD Graph resource id: '00000002-0000-0000-c000-000000000000'
+	MS Graph resource id: '00000003-0000-0000-c000-000000000000'
+	AAD Graph version: '1.5'
+	AAD Graph API Override URL: ''
+	MS Graph API Override URL: ''
+	SaaS resource id: '0000000c-0000-0000-c000-000000000000'
+	SaaS API URL: 'https://service-slot1.activedirectory-int.windowsazure.com:444/ApplicationService.svc'
+	Intune resource id: '0000000a-0000-0000-c000-000000000000'
+	Intune IW Service resource id: 'b8066b99-6e67-41be-abfa-75db1a2c8809'
+	AAD change password URL: ''
+	Validate AAD authority: 'true'
+	WPJ discovery endpoint: 'prod'
+	Intune authentication URL: 'https://go.microsoft.com/fwlink/?LinkId=311963'
+	Intune authentication success match: '/ClientLogonSuccess'
+	Service address override: ''
+	Enrollment override URL: ''
+	Enrollment help URL: 'https://go.microsoft.com/fwlink/?LinkId=626076'
+	Device remove help URL: 'https://go.microsoft.com/fwlink/?LinkId=626068'
+	Device reset help URL: 'https://go.microsoft.com/fwlink/?LinkId=852223'
+	Privacy URL: 'https://go.microsoft.com/fwlink/?Linkid=857875'
+	Unenroll device URL: 'https://go.microsoft.com/fwlink/?LinkId=626079'
+	Remove AAD device URL: 'https://go.microsoft.com/fwlink/?linkid=859439'
+	Verbose logging description URL: 'https://go.microsoft.com/fwlink/?LinkId=526683'
+	Update system web view URL: 'https://go.microsoft.com/fwlink/?prd=12372&pver=1.0&plcid=0x409&clcid=0x409&ar=Intune&sar=Login'
+	Update Chrome URL: 'https://go.microsoft.com/fwlink/?linkid=838995'
+	Update CP from IWP URL: 'https://go.microsoft.com/fwlink/?linkid=396941'
+	Runtime permission URL: 'https://go.microsoft.com/fwlink/?linkid=859027'
+	Public enrollment discovery URL: 'https://manage.microsoft.com/EnrollmentServer/Discovery.svc'
+	CNP enrollment discovery URL: 'https://manage.microsoftonline.cn/EnrollmentServer/Discovery.svc'
+	USG enrollment discovery URL: 'https://manage.microsoft.us/EnrollmentServer/Discovery.svc'
+	APK signing certificate signature: '1L4Z9FJCgn5c0VLhyAxC5O9LdlE='
+	Telemetry privacy URL: 'https://go.microsoft.com/fwlink/?LinkId=616097'
+	MAM Aria tenant token: '74ea25c1a3064acd974b8f2cadca6d5b-4d2cc68b-2b5d-4ef6-823a-ba79503d0f43-7578'
+	MDM Aria tenant token: 'b93567149c6d47ac882009e93af32297-b61a8434-948b-4efc-968d-ba5134bbd172-7183'
+	SafetyNet Attestation API Key: 'AIzaSyA30UoHmAC62N8WHb07KEM7qgCi9iQp7-Q'
+	NTP Time server URL: '0.pool.ntp.org'
+	Use only local device time: 'false'
+	Log level: 'FINEST'
+	Bypass OMADM client: 'false'
+	Fault injected methods:
+	 Category: Rest
+	 Category: WorkplaceJoin
+	 Category: AndroidForWork
+	
+2024-04-17T19:15:25.5970000	INFO	o.AndroidForWorkAccountSupport6	10793	15664	MAM primary user is not a US Gov account
+2024-04-17T19:15:25.5980000	INFO	o.AndroidForWorkAccountSupport6	10793	15663	MAM primary user is not a China account
+2024-04-17T19:15:25.6010000	INFO	com.microsoft.windowsintune.companyportal.CompanyPortalApplication	10793	15663	Setting WPJ telemetry to enabled
+2024-04-17T19:15:25.6150000	VERB	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager, Message: [2024-04-17 19:15:25 - thread_id: 15663, correlation_id: UNSET - Android 29] Init with storage helper:  SharedPreferencesFileManager, ContainsPII: false
+2024-04-17T19:15:25.6160000	INFO	onPostExecute	10793	15629	WPJ: Tag: BrokerDiscoveryClientFactory:getInstance, Message: [2024-04-17 19:15:25 - thread_id: 15663, correlation_id: UNSET - Android 29] Broker Discovery is disabled. Use AccountManager on the SDK side., ContainsPII: false
+2024-04-17T19:15:25.6200000	INFO	onPostExecute	10793	15629	WPJ: Tag: AndroidBrokerPlatformComponentsFactory:create, Message: [2024-04-17 19:15:25 - thread_id: 2, correlation_id: UNSET - Android 29] BrokerHostingAppFlights: {}, ContainsPII: false
+2024-04-17T19:15:25.6210000	INFO	onPostExecute	10793	15629	WPJ: Tag: AndroidBrokerPlatformComponentsFactory:getEncryptionManagerForNonAccountStorage, Message: [2024-04-17 19:15:25 - thread_id: 2, correlation_id: UNSET - Android 29] Is Account Manager Supported?:  [true]
+	Will encrypt with keystore-wrapped key?:  [false], ContainsPII: false
+2024-04-17T19:15:25.6230000	VERB	onPostExecute	10793	15629	WPJ: Tag: BrokerValidator:isSignedByKnownKeys, Message: [2024-04-17 19:15:25 - thread_id: 15663, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is a valid broker app., ContainsPII: false
+2024-04-17T19:15:25.6240000	INFO	onPostExecute	10793	15629	WPJ: Tag: AccountManagerBrokerDiscoveryUtil:getActiveBrokerFromAccountManager, Message: [2024-04-17 19:15:25 - thread_id: 15663, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is the active AccountManager broker., ContainsPII: false
+2024-04-17T19:15:25.6260000	VERB	onPostExecute	10793	15629	WPJ: Tag: BrokerValidator:isSignedByKnownKeys, Message: [2024-04-17 19:15:25 - thread_id: 2, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is a valid broker app., ContainsPII: false
+2024-04-17T19:15:25.6270000	INFO	onPostExecute	10793	15629	WPJ: Tag: AccountManagerBrokerDiscoveryUtil:getActiveBrokerFromAccountManager, Message: [2024-04-17 19:15:25 - thread_id: 2, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is the active AccountManager broker., ContainsPII: false
+2024-04-17T19:15:25.6280000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 2, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.6290000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 2, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.6300000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 2, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.6310000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 2, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.6320000	INFO	onPostExecute	10793	15629	WPJ: Tag: AndroidAccountDataStorageFactory:getAccountStorage, Message: [2024-04-17 19:15:25 - thread_id: 2, correlation_id: UNSET - Android 29] Is Active Broker Selected by Broker Discovery?: [false]
+	Is Account Manager Supported?: [true]
+	Is this app an active broker based on AccountManager?: [false]
+	Should try dual-stacking with Jetpack DataStore as backup?: [false], ContainsPII: false
+2024-04-17T19:15:25.6330000	INFO	onPostExecute	10793	15629	WPJ: Tag: AndroidAccountDataStorageFactory:getAccountStorage, Message: [2024-04-17 19:15:25 - thread_id: 2, correlation_id: UNSET - Android 29] Not an AccountManager broker, returning JetPackDataStoreAccountStorage., ContainsPII: false
+2024-04-17T19:15:25.6340000	INFO	onPostExecute	10793	15629	WPJ: Tag: AndroidBrokerPlatformComponentsFactory#initCryptoFactory, Message: [2024-04-17 19:15:25 - thread_id: 2, correlation_id: UNSET - Android 29] Non-FIPS crypto factory is used, ContainsPII: false
+2024-04-17T19:15:25.6510000	VERB	onPostExecute	10793	15629	WPJ: Tag: WorkplaceJoinServiceProxy#getWorkplaceJoinedAccountName, Message: [2024-04-17 19:15:25 - thread_id: 15667, correlation_id: UNSET - Android 29] Connecting to WPJService to retrieve WPJ account name., ContainsPII: false
+2024-04-17T19:15:25.6520000	VERB	onPostExecute	10793	15629	WPJ: Tag: WorkplaceJoinServiceHandler#bindToWPJService, Message: [2024-04-17 19:15:25 - thread_id: 15667, correlation_id: UNSET - Android 29] Binding to WPJService for caller uid: 10333, ContainsPII: false
+2024-04-17T19:15:25.6670000	VERB	onPostExecute	10793	15629	WPJ: Tag: WorkplaceJoinServiceHandler#, Message: [2024-04-17 19:15:25 - thread_id: 15667, correlation_id: UNSET - Android 29] The status for WorkplaceJoinService bindService call is: true, ContainsPII: false
+2024-04-17T19:15:25.7130000	INFO	onPostExecute	10793	15629	WPJ: Tag: AndroidBrokerPlatformComponentsFactory:fillBuilder, Message: [2024-04-17 19:15:25 - thread_id: 2, correlation_id: UNSET - Android 29] Android Broker Version: 13.2.1 Broker Flights: {}, ContainsPII: false
+2024-04-17T19:15:25.7300000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.7310000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.7310000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.7320000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.7330000	INFO	onPostExecute	10793	15629	WPJ: Tag: class com.microsoft.identity.broker.activebrokerselection.BrokerSelectionIpcHelper:getBrokerDiscoveryMetadata, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] getBrokerDiscoveryMetadata is invoked, but isBrokerDiscoveryEnabled = false., ContainsPII: false
+2024-04-17T19:15:25.7580000	INFO	onPostExecute	10793	15629	WPJ: Tag: BrokerContentProvider, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Broker content provider invoked for uriType: 21, ContainsPII: false
+2024-04-17T19:15:25.7620000	INFO	onPostExecute	10793	15629	WPJ: Tag: AndroidBrokerPlatformComponentsFactory:create, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] BrokerHostingAppFlights: {}, ContainsPII: false
+2024-04-17T19:15:25.7640000	INFO	onPostExecute	10793	15629	WPJ: Tag: AndroidBrokerPlatformComponentsFactory:getEncryptionManagerForNonAccountStorage, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Is Account Manager Supported?:  [true]
+	Will encrypt with keystore-wrapped key?:  [false], ContainsPII: false
+2024-04-17T19:15:25.7710000	VERB	onPostExecute	10793	15629	WPJ: Tag: BrokerValidator:isSignedByKnownKeys, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is a valid broker app., ContainsPII: false
+2024-04-17T19:15:25.7720000	INFO	onPostExecute	10793	15629	WPJ: Tag: AccountManagerBrokerDiscoveryUtil:getActiveBrokerFromAccountManager, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is the active AccountManager broker., ContainsPII: false
+2024-04-17T19:15:25.7720000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.7730000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.7730000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.7730000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.7740000	INFO	onPostExecute	10793	15629	WPJ: Tag: AndroidAccountDataStorageFactory:getAccountStorage, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Is Active Broker Selected by Broker Discovery?: [false]
+	Is Account Manager Supported?: [true]
+	Is this app an active broker based on AccountManager?: [false]
+	Should try dual-stacking with Jetpack DataStore as backup?: [false], ContainsPII: false
+2024-04-17T19:15:25.7750000	INFO	onPostExecute	10793	15629	WPJ: Tag: AndroidAccountDataStorageFactory:getAccountStorage, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Not an AccountManager broker, returning JetPackDataStoreAccountStorage., ContainsPII: false
+2024-04-17T19:15:25.7750000	INFO	onPostExecute	10793	15629	WPJ: Tag: AndroidBrokerPlatformComponentsFactory#initCryptoFactory, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Non-FIPS crypto factory is used, ContainsPII: false
+2024-04-17T19:15:25.9230000	INFO	onPostExecute	10793	15629	WPJ: Tag: AndroidBrokerPlatformComponentsFactory:fillBuilder, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Android Broker Version: 13.2.1 Broker Flights: {}, ContainsPII: false
+2024-04-17T19:15:25.9230000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.9240000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.9250000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.9260000	INFO	onPostExecute	10793	15629	WPJ: Tag: SharedPreferencesFileManager:remove, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] Removing cache key, ContainsPII: false
+2024-04-17T19:15:25.9270000	INFO	onPostExecute	10793	15629	WPJ: Tag: class com.microsoft.identity.broker.activebrokerselection.BrokerSelectionIpcHelper:getBrokerDiscoveryMetadata, Message: [2024-04-17 19:15:25 - thread_id: 15627, correlation_id: UNSET - Android 29] getBrokerDiscoveryMetadata is invoked, but isBrokerDiscoveryEnabled = false., ContainsPII: false
+2024-04-17T19:15:26.0940000	VERB	onPostExecute	10793	15629	WPJ: Tag: WorkplaceJoinServiceHandler#onServiceConnected, Message: [2024-04-17 19:15:26 - thread_id: 2, correlation_id: UNSET - Android 29] WPJ Service is connected., ContainsPII: false
+2024-04-17T19:15:28.5980000	VERB	onPostExecute	10793	15629	WPJ: Tag: WorkplaceJoinServiceProxy#getWorkplaceJoinedAccountName, Message: [2024-04-17 19:15:27 - thread_id: 15667, correlation_id: UNSET - Android 29] Retrieved account name from WPJ Service. , ContainsPII: false
+2024-04-17T19:15:28.9190000	VERB	onPostExecute	10793	15629	WPJ: Tag: setExecutor#getAccount, Message: [2024-04-17 19:15:28 - thread_id: 15667, correlation_id: UNSET - Android 29] WPJ account name detected via service proxy, converting to account., ContainsPII: false
+2024-04-17T19:15:28.9200000	VERB	onPostExecute	10793	15629	WPJ: Tag: performStrategy#isWorkplaceJoinedAsync, Message: [2024-04-17 19:15:28 - thread_id: 15667, correlation_id: UNSET - Android 29] Device is workplace joined., ContainsPII: false
+2024-04-17T19:15:28.9470000	INFO	onPostExecute	10793	15629	WPJ: Tag: EcsClientProxy:ecsClientCallback, Message: [2024-04-17 19:15:28 - thread_id: 15634, correlation_id: ecs config updated: true - Android 29]  ecsClientEventType: EtConfigUpdateSucceeded, ContainsPII: false
+2024-04-17T19:15:29.0660000	VERB	com.google.android.gms.internal.firebase_remote_config.zzag	10793	15658	Total: 310 bytes
+2024-04-17T19:15:29.0670000	VERB	com.google.android.gms.internal.firebase_remote_config.zzag	10793	15658	{"analyticsUserProperties":{},"appId":"1:774944887730:android:3375c567743fd7b2","appInstanceId":"c3JEC9XSgOo","appVersion":"5.0.6215.0","countryCode":"US","languageCode":"en_US","packageName":"com.microsoft.windowsintune.companyportal","platformVersion":"29","sdkVersion":"17.0.0","timeZone":"America/Chicago"}
+2024-04-17T19:15:29.0680000	VERB	com.google.android.gms.internal.firebase_remote_config.zzag	10793	15658	-------------- REQUEST  --------------
+	POST https://firebaseremoteconfig.googleapis.com/v1/projects/774944887730/namespaces/firebase:fetch?key=AIzaSyDwmf6fnRADUd6ShGvtAo-7SyZQ67njWjI
+	Accept-Encoding: gzip
+	User-Agent: Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)
+	x-goog-api-client: java/0 http-google-zzcy/1.26.0 linux/4.9.206
+	x-android-package: com.microsoft.windowsintune.companyportal
+	x-android-cert: D4BE19F45242827E5CD152E1C80C42E4EF4B7651
+	Content-Type: application/json; charset=UTF-8
+	Content-Encoding: gzip
+	Content-Length: 242
+	
+2024-04-17T19:15:29.0680000	VERB	com.google.android.gms.internal.firebase_remote_config.zzag	10793	15658	curl -v --compressed -X POST -H 'Accept-Encoding: gzip' -H 'User-Agent: Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)' -H 'x-goog-api-client: java/0 http-google-zzcy/1.26.0 linux/4.9.206' -H 'x-android-package: com.microsoft.windowsintune.companyportal' -H 'x-android-cert: D4BE19F45242827E5CD152E1C80C42E4EF4B7651' -H 'Content-Type: application/json; charset=UTF-8' -H 'Content-Encoding: gzip' -d '@-' -- 'https://firebaseremoteconfig.googleapis.com/v1/projects/774944887730/namespaces/firebase:fetch?key=AIzaSyDwmf6fnRADUd6ShGvtAo-7SyZQ67njWjI' << $$$
+2024-04-17T19:15:29.3810000	VERB	com.google.android.gms.internal.firebase_remote_config.zzag	10793	15658	Total: 310 bytes
+2024-04-17T19:15:29.3820000	VERB	com.google.android.gms.internal.firebase_remote_config.zzag	10793	15658	{"analyticsUserProperties":{},"appId":"1:774944887730:android:3375c567743fd7b2","appInstanceId":"c3JEC9XSgOo","appVersion":"5.0.6215.0","countryCode":"US","languageCode":"en_US","packageName":"com.microsoft.windowsintune.companyportal","platformVersion":"29","sdkVersion":"17.0.0","timeZone":"America/Chicago"}
+2024-04-17T19:15:29.7890000	VERB	com.google.android.gms.internal.firebase_remote_config.zzag	10793	15658	-------------- RESPONSE --------------
+	200 OK
+	Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+	Cache-Control: private
+	Content-Encoding: gzip
+	Content-Type: application/json; charset=UTF-8
+	Date: Wed, 17 Apr 2024 19:15:30 GMT
+	ETag: etag-774944887730-firebase-fetch--1226672143
+	Server: ESF
+	Transfer-Encoding: chunked
+	Vary: Origin
+	Vary: X-Origin
+	Vary: Referer
+	X-Android-Received-Millis: 1713381329784
+	X-Android-Response-Source: NETWORK 200
+	X-Android-Selected-Protocol: http/1.1
+	X-Android-Sent-Millis: 1713381329378
+	X-Content-Type-Options: nosniff
+	X-Frame-Options: SAMEORIGIN
+	X-XSS-Protection: 0
+	
+2024-04-17T19:15:29.7950000	VERB	com.google.android.gms.internal.firebase_remote_config.zzag	10793	15658	Total: 3,491 bytes
+2024-04-17T19:15:29.7970000	VERB	com.google.android.gms.internal.firebase_remote_config.zzag	10793	15658	{
+	  "entries": {
+	    "checkin_with_expired_cert_key": "true",
+	    "checkin_with_expired_cert_key_v2": "true",
+	    "da_to_wp_enrollment_migration_config": "true",
+	    "device_encryption_blacklist": "Gemini, Aquarius_X5_Plus, HWFRD, HWNXT, HWEVA, hero2qltetmo, OnePlus3T, HWVIE, angler, hlte, nikel, CPH1607, dreamlte, E311, ido",
+	    "device_encryption_blocklist": "Gemini, Aquarius_X5_Plus, HWFRD, HWNXT, HWEVA, hero2qltetmo, OnePlus3T, HWVIE, angler, hlte, nikel, CPH1607, dreamlte, E311, ido",
+	    "enrollment_notification_suppression_list": "",
+	    "feedback_prompt": "true",
+	    "mam_apppolicy_contentprovider_optimized_init": "true",
+	    "mam_avoid_sigusr2_for_all": "false",
+	    "mam_clipboard_proxy_real_context": "true",
+	    "mam_cp_update_info_query_interval_hours": "24",
+	    "mam_database_hardening_block_conditional_access": "true",
+	    "mam_database_hardening_block_conditional_access_api_whitelist": "29",
+	    "mam_database_hardening_block_policy_update": "false",
+	    "mam_database_hardening_enabled": "true",
+	    "mam_database_hardening_throttle_minutes": "20",
+	    "mam_encryption_cache": "true",
+	    "mam_incubating_instrumentation_check_hooks": "true",
+	    "mam_incubating_instrumentation_check_mem": "false",
+	    "mam_ipc_cache_enabled": "true",
+	    "mam_msal_auth_enabled": "false",
+	    "mam_rasp_certificate_check": "true",
+	    "mam_rasp_filetamper_check": "true",
+	    "mam_rasp_hook_check": "true",
+	    "mam_rasp_root_check": "true",
+	    "mam_request_signed_response_enabled": "false",
+	    "mam_safetynet_device_attestation_cl_enabled": "true",
+	    "mam_safetynet_query_interval_hours": "23",
+	    "samsung_blacklist": "SM-G313HU, SM-G313HY, SM-G313M, SM-G313MY, SM-G313U, SM-G313ML, SM-G316H, SM-G316HU, SM-G316M, SM-G316MY, SM-G313F,SM-G313MU, SM-G313HN, SM-G386T, SM-G355H, SM-G355M, SM-G3588V, SM-G360H, SM-G386F, SM-G386W, GT-I9082L, GT-I9082,GT-I9080L, SM-G7200, GT-I9060I, SM-G531H, SM-T285YD, SM-J100H, SM-J100M, SM-J100ML, SM-J110F, SM-J110H, SM-J105M,SM-J200H, SM-J210F, SM-J320F, SM-J320H, SM-J320M, SM-C115, SGH-T399N, SM-N9002, SM-N9009, SM-N930S,SM-N9300, SM-N930F, SM-N930T, SM-N9300, SM-N930F, SM-N930S, SM-N930T, SM-P602, GT-I9105P, SM-G730A, SM-G730V,GT-I9300, GT-I9300I, SM-S975L, SM-G318ML, SM-G9006W, 404SC, SM-T280, SM-T285, SM-T116,SM-T210, SM-T211, SM-T311, GT-P5200, GT-P5210, GT-P5220, SM-G318H, SM-G318HZ, SM-G130BU, SAMSUNG-SGH-I317",
+	    "samsung_blocklist": "SM-G313HU, SM-G313HY, SM-G313M, SM-G313MY, SM-G313U, SM-G313ML, SM-G316H, SM-G316HU, SM-G316M, SM-G316MY, SM-G313F,SM-G313MU, SM-G313HN, SM-G386T, SM-G355H, SM-G355M, SM-G3588V, SM-G360H, SM-G386F, SM-G386W, GT-I9082L, GT-I9082,GT-I9080L, SM-G7200, GT-I9060I, SM-G531H, SM-T285YD, SM-J100H, SM-J100M, SM-J100ML, SM-J110F, SM-J110H, SM-J105M,SM-J200H, SM-J210F, SM-J320F, SM-J320H, SM-J320M, SM-C115, SGH-T399N, SM-N9002, SM-N9009, SM-N930S,SM-N9300, SM-N930F, SM-N930T, SM-N9300, SM-N930F, SM-N930S, SM-N930T, SM-P602, GT-I9105P, SM-G730A, SM-G730V,GT-I9300, GT-I9300I, SM-S975L, SM-G318ML, SM-G9006W, 404SC, SM-T280, SM-T285, SM-T116,SM-T210, SM-T211, SM-T311, GT-P5200, GT-P5210, GT-P5220, SM-G318H, SM-G318HZ, SM-G130BU, SAMSUNG-SGH-I317",
+	    "should_change_aad_patch": "true",
+	    "should_renew_expired_cert": "true",
+	    "should_retry_wp_create_profile_step": "true",
+	    "show_updated_wpj_guided_enrollment_ui": "true",
+	    "update_security_providers": "false"
+	  },
+	  "appName": "com.microsoft.windowsintune.companyportal",
+	  "state": "UPDATE",
+	  "templateVersion": "77"
+	}
+	
+2024-04-17T19:15:29.8250000	INFO	o.SingleAccountPublicClientApplication5	10793	15660	Fetched and activated remote config
+2024-04-17T19:16:23.3760000	VERB	io.opentelemetry.sdk.metrics.export.PeriodicMetricReader	10793	15636	No metric data to export - skipping export.
+2024-04-17T20:13:21.1790000	INFO	None	29603	    2	Initialized logging to file pattern: /data/user/0/com.microsoft.windowsintune.companyportal/files/logs/broker.%g.txt
+2024-04-17T20:13:21.2310000	INFO	onPostExecute	29603	16369	WPJ: Tag: AndroidBrokerPlatformComponentsFactory:create, Message: [2024-04-17 20:13:21 - thread_id: 16367, correlation_id: UNSET - Android 29] BrokerHostingAppFlights: {}, ContainsPII: false
+2024-04-17T20:13:21.2310000	VERB	onPostExecute	29603	16369	WPJ: Tag: SharedPreferencesFileManager, Message: [2024-04-17 20:13:21 - thread_id: 16367, correlation_id: UNSET - Android 29] Init: , ContainsPII: false
+2024-04-17T20:13:21.4210000	INFO	onPostExecute	29603	16369	WPJ: Tag: AndroidBrokerPlatformComponentsFactory:getEncryptionManagerForNonAccountStorage, Message: [2024-04-17 20:13:21 - thread_id: 16367, correlation_id: UNSET - Android 29] Is Account Manager Supported?:  [true]
+	Will encrypt with keystore-wrapped key?:  [false], ContainsPII: false
+2024-04-17T20:13:21.5070000	VERB	onPostExecute	29603	16369	WPJ: Tag: BrokerValidator:isSignedByKnownKeys, Message: [2024-04-17 20:13:21 - thread_id: 16367, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is a valid broker app., ContainsPII: false
+2024-04-17T20:13:21.5080000	INFO	onPostExecute	29603	16369	WPJ: Tag: AccountManagerBrokerDiscoveryUtil:getActiveBrokerFromAccountManager, Message: [2024-04-17 20:13:21 - thread_id: 16367, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is the active AccountManager broker., ContainsPII: false
+2024-04-17T20:13:21.5160000	VERB	onPostExecute	29603	16369	WPJ: Tag: SharedPreferencesFileManager, Message: [2024-04-17 20:13:21 - thread_id: 16367, correlation_id: UNSET - Android 29] Init with storage helper:  SharedPreferencesFileManager, ContainsPII: false
+2024-04-17T20:13:21.5629999	INFO	onPostExecute	29603	16369	WPJ: Tag: SharedPreferencesFileManager:getString, Message: [2024-04-17 20:13:21 - thread_id: 16367, correlation_id: Data associated to the given key is null or empty - Android 29] N/A, ContainsPII: false
+2024-04-17T20:13:21.5639999	INFO	onPostExecute	29603	16369	WPJ: Tag: AndroidAccountDataStorageFactory:getAccountStorage, Message: [2024-04-17 20:13:21 - thread_id: 16367, correlation_id: UNSET - Android 29] Is Active Broker Selected by Broker Discovery?: [false]
+	Is Account Manager Supported?: [true]
+	Is this app an active broker based on AccountManager?: [false]
+	Should try dual-stacking with Jetpack DataStore as backup?: [true], ContainsPII: false
+2024-04-17T20:13:21.5800000	INFO	onPostExecute	29603	16369	WPJ: Tag: AndroidAccountDataStorageFactory:getAccountStorage, Message: [2024-04-17 20:13:21 - thread_id: 16367, correlation_id: UNSET - Android 29] Not an AccountManager broker, returning JetPackDataStoreAccountStorage., ContainsPII: false
+2024-04-17T20:13:21.5810000	INFO	onPostExecute	29603	16369	WPJ: Tag: AndroidBrokerPlatformComponentsFactory#initCryptoFactory, Message: [2024-04-17 20:13:21 - thread_id: 16367, correlation_id: UNSET - Android 29] Non-FIPS crypto factory is used, ContainsPII: false
+2024-04-17T20:13:21.6650000	WARN	com.google.android.gms.internal.firebase_remote_config.zzd	29603	16389	Application name is not set. Call Builder#setApplicationName.
+2024-04-17T20:13:21.6680000	WARN	com.google.android.gms.internal.firebase_remote_config.zzd	29603	    2	Application name is not set. Call Builder#setApplicationName.
+2024-04-17T20:13:21.7620000	VERB	com.microsoft.windowsintune.companyportal.CompanyPortalApplication	29603	    2	Patched Production Deployment Settings
+	Current environment selected: [[apk default]]
+	
+	Data plugin: 'AAD'
+	AAD authority: 'https://login.windows.net/common'
+	AAD client id: '9ba1a5c7-f17a-4de9-a1f1-6178c8d51223'
+	AAD Graph resource id: '00000002-0000-0000-c000-000000000000'
+	MS Graph resource id: '00000003-0000-0000-c000-000000000000'
+	AAD Graph version: '1.5'
+	AAD Graph API Override URL: ''
+	MS Graph API Override URL: ''
+	SaaS resource id: '0000000c-0000-0000-c000-000000000000'
+	SaaS API URL: 'https://service-slot1.activedirectory-int.windowsazure.com:444/ApplicationService.svc'
+	Intune resource id: '0000000a-0000-0000-c000-000000000000'
+	Intune IW Service resource id: 'b8066b99-6e67-41be-abfa-75db1a2c8809'
+	AAD change password URL: ''
+	Validate AAD authority: 'true'
+	WPJ discovery endpoint: 'prod'
+	Intune authentication URL: 'https://go.microsoft.com/fwlink/?LinkId=311963'
+	Intune authentication success match: '/ClientLogonSuccess'
+	Service address override: ''
+	Enrollment override URL: ''
+	Enrollment help URL: 'https://go.microsoft.com/fwlink/?LinkId=626076'
+	Device remove help URL: 'https://go.microsoft.com/fwlink/?LinkId=626068'
+	Device reset help URL: 'https://go.microsoft.com/fwlink/?LinkId=852223'
+	Privacy URL: 'https://go.microsoft.com/fwlink/?Linkid=857875'
+	Unenroll device URL: 'https://go.microsoft.com/fwlink/?LinkId=626079'
+	Remove AAD device URL: 'https://go.microsoft.com/fwlink/?linkid=859439'
+	Verbose logging description URL: 'https://go.microsoft.com/fwlink/?LinkId=526683'
+	Update system web view URL: 'https://go.microsoft.com/fwlink/?prd=12372&pver=1.0&plcid=0x409&clcid=0x409&ar=Intune&sar=Login'
+	Update Chrome URL: 'https://go.microsoft.com/fwlink/?linkid=838995'
+	Update CP from IWP URL: 'https://go.microsoft.com/fwlink/?linkid=396941'
+	Runtime permission URL: 'https://go.microsoft.com/fwlink/?linkid=859027'
+	Public enrollment discovery URL: 'https://manage.microsoft.com/EnrollmentServer/Discovery.svc'
+	CNP enrollment discovery URL: 'https://manage.microsoftonline.cn/EnrollmentServer/Discovery.svc'
+	USG enrollment discovery URL: 'https://manage.microsoft.us/EnrollmentServer/Discovery.svc'
+	APK signing certificate signature: '1L4Z9FJCgn5c0VLhyAxC5O9LdlE='
+	Telemetry privacy URL: 'https://go.microsoft.com/fwlink/?LinkId=616097'
+	MAM Aria tenant token: '74ea25c1a3064acd974b8f2cadca6d5b-4d2cc68b-2b5d-4ef6-823a-ba79503d0f43-7578'
+	MDM Aria tenant token: 'b93567149c6d47ac882009e93af32297-b61a8434-948b-4efc-968d-ba5134bbd172-7183'
+	SafetyNet Attestation API Key: 'AIzaSyA30UoHmAC62N8WHb07KEM7qgCi9iQp7-Q'
+	NTP Time server URL: '0.pool.ntp.org'
+	Use only local device time: 'false'
+	Log level: 'FINEST'
+	Bypass OMADM client: 'false'
+	Fault injected methods:
+	 Category: Rest
+	 Category: WorkplaceJoin
+	 Category: AndroidForWork
+	
+2024-04-17T20:13:21.8250000	INFO	o.AndroidForWorkAccountSupport6	29603	16399	MAM primary user is not a US Gov account
+2024-04-17T20:13:21.8290000	INFO	o.AndroidForWorkAccountSupport6	29603	16400	MAM primary user is not a China account
+2024-04-17T20:13:21.8540000	INFO	com.microsoft.windowsintune.companyportal.CompanyPortalApplication	29603	16400	Setting WPJ telemetry to enabled
+2024-04-17T20:13:21.9200000	INFO	o.SingleAccountPublicClientApplication5	29603	16395	Fetched and activated remote config
+2024-04-17T20:13:21.9850000	VERB	onPostExecute	29603	16369	WPJ: Tag: SharedPreferencesFileManager, Message: [2024-04-17 20:13:21 - thread_id: 16403, correlation_id: UNSET - Android 29] Init with storage helper:  SharedPreferencesFileManager, ContainsPII: false
+2024-04-17T20:13:21.9850000	INFO	onPostExecute	29603	16369	WPJ: Tag: BrokerDiscoveryClientFactory:getInstance, Message: [2024-04-17 20:13:21 - thread_id: 16403, correlation_id: UNSET - Android 29] Broker Discovery is disabled. Use AccountManager on the SDK side., ContainsPII: false
+2024-04-17T20:13:21.9930000	VERB	onPostExecute	29603	16369	WPJ: Tag: BrokerValidator:isSignedByKnownKeys, Message: [2024-04-17 20:13:21 - thread_id: 16403, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is a valid broker app., ContainsPII: false
+2024-04-17T20:13:21.9930000	INFO	onPostExecute	29603	16369	WPJ: Tag: AccountManagerBrokerDiscoveryUtil:getActiveBrokerFromAccountManager, Message: [2024-04-17 20:13:21 - thread_id: 16403, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is the active AccountManager broker., ContainsPII: false
+2024-04-17T20:13:21.9950000	VERB	onPostExecute	29603	16369	WPJ: Tag: WorkplaceJoinServiceProxy#getWorkplaceJoinedAccountName, Message: [2024-04-17 20:13:21 - thread_id: 16402, correlation_id: UNSET - Android 29] Connecting to WPJService to retrieve WPJ account name., ContainsPII: false
+2024-04-17T20:13:21.9960000	VERB	onPostExecute	29603	16369	WPJ: Tag: WorkplaceJoinServiceHandler#bindToWPJService, Message: [2024-04-17 20:13:21 - thread_id: 16402, correlation_id: UNSET - Android 29] Binding to WPJService for caller uid: 10333, ContainsPII: false
+2024-04-17T20:13:22.0020000	VERB	onPostExecute	29603	16369	WPJ: Tag: WorkplaceJoinServiceHandler#, Message: [2024-04-17 20:13:22 - thread_id: 16402, correlation_id: UNSET - Android 29] The status for WorkplaceJoinService bindService call is: true, ContainsPII: false
+2024-04-17T20:13:22.0290000	VERB	onPostExecute	29603	16369	WPJ: Tag: WorkplaceJoinServiceHandler#onServiceConnected, Message: [2024-04-17 20:13:22 - thread_id: 2, correlation_id: UNSET - Android 29] WPJ Service is connected., ContainsPII: false
+2024-04-17T20:13:22.0560000	INFO	onPostExecute	29603	16369	WPJ: Tag: AndroidBrokerPlatformComponentsFactory:fillBuilder, Message: [2024-04-17 20:13:22 - thread_id: 16367, correlation_id: UNSET - Android 29] Android Broker Version: 13.2.1 Broker Flights: {"EnablePasskeyFeature":false,"TelemetrySamplingRateAccountStorageBackup":0.0,"EnableBrokerSelection":true,"TelemetrySamplingRate":0.25,"TryWriteToJetpackDataStoreV2":true,"EnablePrtV3":true,"EnableMultipleWorkplaceJoinGA":true,"EnableBrokerProtocolVersionCheck":true,"EnableDcfInBroker":true,"EnableBrokerPowerLiftLogging":true}, ContainsPII: false
+2024-04-17T20:13:22.1060000	INFO	onPostExecute	29603	16369	WPJ: Tag: PowerLiftInstanceCreator :initializePowerLift, Message: [2024-04-17 20:13:22 - thread_id: 16367, correlation_id: UNSET - Android 29] Initializing powerLift for context com.microsoft.windowsintune.companyportal.CompanyPortalApplication@6acd0a4, ContainsPII: false
+2024-04-17T20:13:22.3459999	VERB	onPostExecute	29603	16369	WPJ: Tag: SharedPreferencesFileManager, Message: [2024-04-17 20:13:22 - thread_id: 16367, correlation_id: UNSET - Android 29] Init: , ContainsPII: false
+2024-04-17T20:13:22.3540000	VERB	onPostExecute	29603	16369	WPJ: Tag: BrokerValidator:isSignedByKnownKeys, Message: [2024-04-17 20:13:22 - thread_id: 16407, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is a valid broker app., ContainsPII: false
+2024-04-17T20:13:22.3550000	INFO	onPostExecute	29603	16369	WPJ: Tag: PowerLiftDiagnosticsUploader:uploadLogs, Message: [2024-04-17 20:13:22 - thread_id: 16407, correlation_id: UNSET - Android 29] Started request to upload logs for incidentId efc90e34-88e8-450e-98ae-03bf0a43aee0, ContainsPII: false
+2024-04-17T20:13:22.3660000	VERB	onPostExecute	29603	16369	WPJ: Tag: PowerLiftDiagnosticsUploader :getFileUploadList, Message: [2024-04-17 20:13:22 - thread_id: 16407, correlation_id: UNSET - Android 29] Fetching files from files directory /data/user/0/com.microsoft.windowsintune.companyportal/files/logs, ContainsPII: false
+2024-04-17T20:13:22.3700000	VERB	onPostExecute	29603	16369	WPJ: Tag: PowerLiftDiagnosticsUploader :getBrokerTempLogFileDirectory, Message: [2024-04-17 20:13:22 - thread_id: 16407, correlation_id: UNSET - Android 29] Is temporary broker log file directory creation successful? true, ContainsPII: false
+2024-04-17T20:13:23.0869999	VERB	onPostExecute	29603	16369	WPJ: Tag: WorkplaceJoinServiceProxy#getWorkplaceJoinedAccountName, Message: [2024-04-17 20:13:23 - thread_id: 16402, correlation_id: UNSET - Android 29] Retrieved account name from WPJ Service. , ContainsPII: false
+2024-04-17T20:13:23.0880000	VERB	onPostExecute	29603	16369	WPJ: Tag: setExecutor#getAccount, Message: [2024-04-17 20:13:23 - thread_id: 16402, correlation_id: UNSET - Android 29] WPJ account name detected via service proxy, converting to account., ContainsPII: false
+2024-04-17T20:13:23.0880000	VERB	onPostExecute	29603	16369	WPJ: Tag: performStrategy#isWorkplaceJoinedAsync, Message: [2024-04-17 20:13:23 - thread_id: 16402, correlation_id: UNSET - Android 29] Device is workplace joined., ContainsPII: false
+2024-04-17T20:13:23.3220000	INFO	onPostExecute	29603	16369	WPJ: Tag: PowerLiftDiagnosticsUploader:uploadLogs, Message: [2024-04-17 20:13:23 - thread_id: 16407, correlation_id: UNSET - Android 29] Upload response message for file prodCompanyPortal-broker.0.txt5600696295698948410.tmp is OK with status code 200, ContainsPII: false
+2024-04-17T20:13:23.3220000	INFO	onPostExecute	29603	16369	WPJ: Tag: PowerLiftDiagnosticsUploader:uploadLogs, Message: [2024-04-17 20:13:23 - thread_id: 16407, correlation_id: UNSET - Android 29] Successfully completed log upload for incident efc90e34-88e8-450e-98ae-03bf0a43aee0, ContainsPII: false
+2024-04-17T20:13:23.3300000	VERB	onPostExecute	29603	16369	WPJ: Tag: PowerLiftDiagnosticsUploader :clearTempLogFilesCreated, Message: [2024-04-17 20:13:23 - thread_id: 16407, correlation_id: UNSET - Android 29] Temporary log file with name prodCompanyPortal-broker.0.txt5600696295698948410.tmp deletion successful? true, ContainsPII: false
+2024-04-17T20:13:23.3310000	VERB	onPostExecute	29603	16369	WPJ: Tag: PowerLiftDiagnosticsUploader :clearTempLogFilesCreated, Message: [2024-04-17 20:13:23 - thread_id: 16407, correlation_id: UNSET - Android 29] Temporary log file directory deleted? true, ContainsPII: false
+2024-04-17T20:13:23.3350000	INFO	onPostExecute	29603	16369	WPJ: Tag: BrokerLogsUploader:uploadLogsOnThisApp, Message: [2024-04-17 20:13:23 - thread_id: 16407, correlation_id: UNSET - Android 29] Logs uploaded = true, ContainsPII: false
+2024-04-17T20:13:47.0000000	INFO	onPostExecute	29603	16369	WPJ: Tag: BrokerContentProvider, Message: [2024-04-17 20:13:46 - thread_id: 16416, correlation_id: UNSET - Android 29] Broker content provider invoked for uriType: 27, ContainsPII: false
+2024-04-17T20:13:47.0290000	INFO	onPostExecute	29603	16369	WPJ: Tag: AndroidBrokerPlatformComponentsFactory:create, Message: [2024-04-17 20:13:47 - thread_id: 16416, correlation_id: UNSET - Android 29] BrokerHostingAppFlights: {}, ContainsPII: false
+2024-04-17T20:13:47.0360000	INFO	onPostExecute	29603	16369	WPJ: Tag: AndroidBrokerPlatformComponentsFactory:getEncryptionManagerForNonAccountStorage, Message: [2024-04-17 20:13:47 - thread_id: 16416, correlation_id: UNSET - Android 29] Is Account Manager Supported?:  [true]
+	Will encrypt with keystore-wrapped key?:  [false], ContainsPII: false
+2024-04-17T20:13:47.0570000	VERB	onPostExecute	29603	16369	WPJ: Tag: BrokerValidator:isSignedByKnownKeys, Message: [2024-04-17 20:13:47 - thread_id: 16416, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is a valid broker app., ContainsPII: false
+2024-04-17T20:13:47.0570000	INFO	onPostExecute	29603	16369	WPJ: Tag: AccountManagerBrokerDiscoveryUtil:getActiveBrokerFromAccountManager, Message: [2024-04-17 20:13:47 - thread_id: 16416, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is the active AccountManager broker., ContainsPII: false
+2024-04-17T20:13:47.1120000	INFO	onPostExecute	29603	16369	WPJ: Tag: SharedPreferencesFileManager:getString, Message: [2024-04-17 20:13:47 - thread_id: 16416, correlation_id: Data associated to the given key is null or empty - Android 29] N/A, ContainsPII: false
+2024-04-17T20:13:47.1140000	INFO	onPostExecute	29603	16369	WPJ: Tag: AndroidAccountDataStorageFactory:getAccountStorage, Message: [2024-04-17 20:13:47 - thread_id: 16416, correlation_id: UNSET - Android 29] Is Active Broker Selected by Broker Discovery?: [false]
+	Is Account Manager Supported?: [true]
+	Is this app an active broker based on AccountManager?: [false]
+	Should try dual-stacking with Jetpack DataStore as backup?: [true], ContainsPII: false
+2024-04-17T20:13:47.1150000	INFO	onPostExecute	29603	16369	WPJ: Tag: AndroidAccountDataStorageFactory:getAccountStorage, Message: [2024-04-17 20:13:47 - thread_id: 16416, correlation_id: UNSET - Android 29] Not an AccountManager broker, returning JetPackDataStoreAccountStorage., ContainsPII: false
+2024-04-17T20:13:47.1160000	INFO	onPostExecute	29603	16369	WPJ: Tag: AndroidBrokerPlatformComponentsFactory#initCryptoFactory, Message: [2024-04-17 20:13:47 - thread_id: 16416, correlation_id: UNSET - Android 29] Non-FIPS crypto factory is used, ContainsPII: false
+2024-04-17T20:13:47.3950000	INFO	onPostExecute	29603	16369	WPJ: Tag: AndroidBrokerPlatformComponentsFactory:fillBuilder, Message: [2024-04-17 20:13:47 - thread_id: 16416, correlation_id: UNSET - Android 29] Android Broker Version: 13.2.1 Broker Flights: {"EnablePasskeyFeature":false,"TelemetrySamplingRateAccountStorageBackup":0.0,"EnableBrokerSelection":true,"TelemetrySamplingRate":0.25,"TryWriteToJetpackDataStoreV2":true,"EnablePrtV3":true,"EnableMultipleWorkplaceJoinGA":true,"EnableBrokerProtocolVersionCheck":true,"EnableDcfInBroker":true,"EnableBrokerPowerLiftLogging":true}, ContainsPII: false
+2024-04-17T20:13:47.4220000	VERB	onPostExecute	29603	16369	WPJ: Tag: PowerLiftInstanceCreator :initializePowerLift, Message: [2024-04-17 20:13:47 - thread_id: 16416, correlation_id: UNSET - Android 29] PowerLift was not initialized for context com.microsoft.windowsintune.companyportal.CompanyPortalApplication@6acd0a4, ContainsPII: false
+2024-04-17T20:13:47.4440000	VERB	onPostExecute	29603	16369	WPJ: Tag: BrokerValidator:isSignedByKnownKeys, Message: [2024-04-17 20:13:47 - thread_id: 16407, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is a valid broker app., ContainsPII: false
+2024-04-17T20:13:47.4440000	INFO	onPostExecute	29603	16369	WPJ: Tag: PowerLiftDiagnosticsUploader:uploadLogs, Message: [2024-04-17 20:13:47 - thread_id: 16407, correlation_id: UNSET - Android 29] Started request to upload logs for incidentId efc90e34-88e8-450e-98ae-03bf0a43aee0, ContainsPII: false
+2024-04-17T20:13:47.4730000	VERB	onPostExecute	29603	16369	WPJ: Tag: PowerLiftDiagnosticsUploader :getFileUploadList, Message: [2024-04-17 20:13:47 - thread_id: 16407, correlation_id: UNSET - Android 29] Fetching files from files directory /data/user/0/com.microsoft.windowsintune.companyportal/files/logs, ContainsPII: false
+2024-04-17T20:13:47.4870000	VERB	onPostExecute	29603	16369	WPJ: Tag: PowerLiftDiagnosticsUploader :getBrokerTempLogFileDirectory, Message: [2024-04-17 20:13:47 - thread_id: 16407, correlation_id: UNSET - Android 29] Is temporary broker log file directory creation successful? true, ContainsPII: false
+2024-04-17T20:13:48.2920000	INFO	onPostExecute	29603	16369	WPJ: Tag: PowerLiftDiagnosticsUploader:uploadLogs, Message: [2024-04-17 20:13:48 - thread_id: 16407, correlation_id: UNSET - Android 29] Upload response message for file prodCompanyPortal-broker.0.txt6308376393114239299.tmp is Conflict with status code 409, ContainsPII: false
+2024-04-17T20:13:48.3080000	INFO	onPostExecute	29603	16369	WPJ: Tag: PowerLiftDiagnosticsUploader:uploadLogs, Message: [2024-04-17 20:13:48 - thread_id: 16407, correlation_id: UNSET - Android 29] Failed uploading logs to PowerLift with error code 409, ContainsPII: false
+2024-04-17T20:13:48.3180000	VERB	onPostExecute	29603	16369	WPJ: Tag: PowerLiftDiagnosticsUploader :clearTempLogFilesCreated, Message: [2024-04-17 20:13:48 - thread_id: 16407, correlation_id: UNSET - Android 29] Temporary log file with name prodCompanyPortal-broker.0.txt6308376393114239299.tmp deletion successful? true, ContainsPII: false
+2024-04-17T20:13:48.3190000	VERB	onPostExecute	29603	16369	WPJ: Tag: PowerLiftDiagnosticsUploader :clearTempLogFilesCreated, Message: [2024-04-17 20:13:48 - thread_id: 16407, correlation_id: UNSET - Android 29] Temporary log file directory deleted? true, ContainsPII: false
+2024-04-17T20:13:48.3250000	ERR_	onPostExecute	29603	16369	WPJ: Tag: BrokerLogsUploader:uploadLogsOnThisApp, Message: [2024-04-17 20:13:48 - thread_id: 16407, correlation_id: UNSET - Android 29] Failed to upload logs on this app
+	com.microsoft.identity.common.java.exception.ClientException: Failed uploading logs to PowerLift with error code 409
+		at com.microsoft.identity.broker.logging.PowerLiftDiagnosticsUploader.uploadLogs(:145)
+		at com.microsoft.identity.broker.logging.BrokerLogsUploader$uploadLogsOnThisApp$1.invokeSuspend(:241)
+		at o.clearNewAdminActivationAppWhiteList.resumeWith(:33)
+		at o.NetworkBoundResourcelocalObservablelocalNetworkTransformer114.run(:106)
+		at o.getBodyFromUnsuccessfulResponse$CipherOutputStream.run(:115)
+		at o.onScaleChanged.run(:100)
+		at o.isResourceIdValid.OverwritingInputMerger(:584)
+		at o.isResourceIdValid$brAesCtOrtho.ClockStatusWatcherListener(:793)
+		at o.isResourceIdValid$brAesCtOrtho.wots_sign(:697)
+		at o.isResourceIdValid$brAesCtOrtho.run(:684)
+	, ContainsPII: false
+2024-04-17T20:13:51.4060000	VERB	onPostExecute	29603	16369	WPJ: Tag: AndroidDeviceMetadata :getDeviceType, Message: [2024-04-17 20:13:51 - thread_id: 16376, correlation_id: UNSET - Android 29] Setting the deviceType as mobileDevice, ContainsPII: false
+2024-04-17T20:14:21.3170000	VERB	io.opentelemetry.sdk.metrics.export.PeriodicMetricReader	29603	16378	No metric data to export - skipping export.
+2024-04-17T20:15:21.3650000	VERB	io.opentelemetry.sdk.metrics.export.PeriodicMetricReader	29603	16378	No metric data to export - skipping export.
+2024-04-17T20:15:28.8580000	INFO	onPostExecute	29603	16369	WPJ: Tag: EcsClientProxy:ecsClientCallback, Message: [2024-04-17 20:15:28 - thread_id: 16422, correlation_id: ecs config updated: true - Android 29]  ecsClientEventType: EtConfigUpdateSucceeded, ContainsPII: false
+2024-04-17T20:16:21.2760000	VERB	io.opentelemetry.sdk.metrics.export.PeriodicMetricReader	29603	16378	No metric data to export - skipping export.
+2024-04-17T20:17:21.3260000	VERB	io.opentelemetry.sdk.metrics.export.PeriodicMetricReader	29603	16378	No metric data to export - skipping export.
+2024-04-17T20:30:38.7600000	INFO	None	 3683	    2	Initialized logging to file pattern: /data/user/0/com.microsoft.windowsintune.companyportal/files/logs/broker.%g.txt
+2024-04-17T20:30:38.8450000	WARN	com.google.android.gms.internal.firebase_remote_config.zzd	 3683	16555	Application name is not set. Call Builder#setApplicationName.
+2024-04-17T20:30:38.8480000	WARN	com.google.android.gms.internal.firebase_remote_config.zzd	 3683	    2	Application name is not set. Call Builder#setApplicationName.
+2024-04-17T20:30:38.9120000	VERB	com.microsoft.windowsintune.companyportal.CompanyPortalApplication	 3683	    2	Patched Production Deployment Settings
+	Current environment selected: [[apk default]]
+	
+	Data plugin: 'AAD'
+	AAD authority: 'https://login.windows.net/common'
+	AAD client id: '9ba1a5c7-f17a-4de9-a1f1-6178c8d51223'
+	AAD Graph resource id: '00000002-0000-0000-c000-000000000000'
+	MS Graph resource id: '00000003-0000-0000-c000-000000000000'
+	AAD Graph version: '1.5'
+	AAD Graph API Override URL: ''
+	MS Graph API Override URL: ''
+	SaaS resource id: '0000000c-0000-0000-c000-000000000000'
+	SaaS API URL: 'https://service-slot1.activedirectory-int.windowsazure.com:444/ApplicationService.svc'
+	Intune resource id: '0000000a-0000-0000-c000-000000000000'
+	Intune IW Service resource id: 'b8066b99-6e67-41be-abfa-75db1a2c8809'
+	AAD change password URL: ''
+	Validate AAD authority: 'true'
+	WPJ discovery endpoint: 'prod'
+	Intune authentication URL: 'https://go.microsoft.com/fwlink/?LinkId=311963'
+	Intune authentication success match: '/ClientLogonSuccess'
+	Service address override: ''
+	Enrollment override URL: ''
+	Enrollment help URL: 'https://go.microsoft.com/fwlink/?LinkId=626076'
+	Device remove help URL: 'https://go.microsoft.com/fwlink/?LinkId=626068'
+	Device reset help URL: 'https://go.microsoft.com/fwlink/?LinkId=852223'
+	Privacy URL: 'https://go.microsoft.com/fwlink/?Linkid=857875'
+	Unenroll device URL: 'https://go.microsoft.com/fwlink/?LinkId=626079'
+	Remove AAD device URL: 'https://go.microsoft.com/fwlink/?linkid=859439'
+	Verbose logging description URL: 'https://go.microsoft.com/fwlink/?LinkId=526683'
+	Update system web view URL: 'https://go.microsoft.com/fwlink/?prd=12372&pver=1.0&plcid=0x409&clcid=0x409&ar=Intune&sar=Login'
+	Update Chrome URL: 'https://go.microsoft.com/fwlink/?linkid=838995'
+	Update CP from IWP URL: 'https://go.microsoft.com/fwlink/?linkid=396941'
+	Runtime permission URL: 'https://go.microsoft.com/fwlink/?linkid=859027'
+	Public enrollment discovery URL: 'https://manage.microsoft.com/EnrollmentServer/Discovery.svc'
+	CNP enrollment discovery URL: 'https://manage.microsoftonline.cn/EnrollmentServer/Discovery.svc'
+	USG enrollment discovery URL: 'https://manage.microsoft.us/EnrollmentServer/Discovery.svc'
+	APK signing certificate signature: '1L4Z9FJCgn5c0VLhyAxC5O9LdlE='
+	Telemetry privacy URL: 'https://go.microsoft.com/fwlink/?LinkId=616097'
+	MAM Aria tenant token: '74ea25c1a3064acd974b8f2cadca6d5b-4d2cc68b-2b5d-4ef6-823a-ba79503d0f43-7578'
+	MDM Aria tenant token: 'b93567149c6d47ac882009e93af32297-b61a8434-948b-4efc-968d-ba5134bbd172-7183'
+	SafetyNet Attestation API Key: 'AIzaSyA30UoHmAC62N8WHb07KEM7qgCi9iQp7-Q'
+	NTP Time server URL: '0.pool.ntp.org'
+	Use only local device time: 'false'
+	Log level: 'FINEST'
+	Bypass OMADM client: 'false'
+	Fault injected methods:
+	 Category: Rest
+	 Category: WorkplaceJoin
+	 Category: AndroidForWork
+	
+2024-04-17T20:30:38.9350000	INFO	o.AndroidForWorkAccountSupport6	 3683	16565	MAM primary user is not a US Gov account
+2024-04-17T20:30:38.9360000	INFO	o.AndroidForWorkAccountSupport6	 3683	16564	MAM primary user is not a China account
+2024-04-17T20:30:38.9380000	INFO	com.microsoft.windowsintune.companyportal.CompanyPortalApplication	 3683	16564	Setting WPJ telemetry to enabled
+2024-04-17T20:30:38.9390000	VERB	onPostExecute	 3683	16529	WPJ: Tag: SharedPreferencesFileManager, Message: [2024-04-17 20:30:38 - thread_id: 16565, correlation_id: UNSET - Android 29] Init with storage helper:  SharedPreferencesFileManager, ContainsPII: false
+2024-04-17T20:30:38.9440000	INFO	onPostExecute	 3683	16529	WPJ: Tag: BrokerDiscoveryClientFactory:getInstance, Message: [2024-04-17 20:30:38 - thread_id: 16565, correlation_id: UNSET - Android 29] Broker Discovery is disabled. Use AccountManager on the SDK side., ContainsPII: false
+2024-04-17T20:30:38.9460000	INFO	o.SingleAccountPublicClientApplication5	 3683	16561	Fetched and activated remote config
+2024-04-17T20:30:38.9510000	VERB	onPostExecute	 3683	16529	WPJ: Tag: BrokerValidator:isSignedByKnownKeys, Message: [2024-04-17 20:30:38 - thread_id: 16565, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is a valid broker app., ContainsPII: false
+2024-04-17T20:30:38.9520000	INFO	onPostExecute	 3683	16529	WPJ: Tag: AccountManagerBrokerDiscoveryUtil:getActiveBrokerFromAccountManager, Message: [2024-04-17 20:30:38 - thread_id: 16565, correlation_id: UNSET - Android 29] prodMicrosoftAuthenticator is the active AccountManager broker., ContainsPII: false
+2024-04-17T20:30:38.9540000	VERB	onPostExecute	 3683	16529	WPJ: Tag: WorkplaceJoinServiceProxy#getWorkplaceJoinedAccountName, Message: [2024-04-17 20:30:38 - thread_id: 16569, correlation_id: UNSET - Android 29] Connecting to WPJService to retrieve WPJ account name., ContainsPII: false
+2024-04-17T20:30:38.9550000	VERB	onPostExecute	 3683	16529	WPJ: Tag: WorkplaceJoinServiceHandler#bindToWPJService, Message: [2024-04-17 20:30:38 - thread_id: 16569, correlation_id: UNSET - Android 29] Binding to WPJService for caller uid: 10333, ContainsPII: false
+2024-04-17T20:30:38.9590000	VERB	onPostExecute	 3683	16529	WPJ: Tag: WorkplaceJoinServiceHandler#, Message: [2024-04-17 20:30:38 - thread_id: 16569, correlation_id: UNSET - Android 29] The status for WorkplaceJoinService bindService call is: true, ContainsPII: false
+2024-04-17T20:30:40.1780000	VERB	onPostExecute	 3683	16529	WPJ: Tag: WorkplaceJoinServiceHandler#onServiceConnected, Message: [2024-04-17 20:30:40 - thread_id: 2, correlation_id: UNSET - Android 29] WPJ Service is connected., ContainsPII: false
+2024-04-17T20:30:41.0230000	VERB	onPostExecute	 3683	16529	WPJ: Tag: WorkplaceJoinServiceProxy#getWorkplaceJoinedAccountName, Message: [2024-04-17 20:30:40 - thread_id: 16569, correlation_id: UNSET - Android 29] Retrieved account name from WPJ Service. , ContainsPII: false
+2024-04-17T20:30:41.0790000	VERB	onPostExecute	 3683	16529	WPJ: Tag: setExecutor#getAccount, Message: [2024-04-17 20:30:41 - thread_id: 16569, correlation_id: UNSET - Android 29] WPJ account name detected via service proxy, converting to account., ContainsPII: false
+2024-04-17T20:30:41.0800000	VERB	onPostExecute	 3683	16529	WPJ: Tag: performStrategy#isWorkplaceJoinedAsync, Message: [2024-04-17 20:30:41 - thread_id: 16569, correlation_id: UNSET - Android 29] Device is workplace joined., ContainsPII: false
